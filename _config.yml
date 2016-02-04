@@ -27,10 +27,10 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  categories: /categories
+  #categories: /categories
   archives: /archives
   tags: /tags
-  about: /about
+  #about: /about
   #commonweal: /404.html
 
 
@@ -138,7 +138,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night eighties
+highlight_theme: normal
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -161,23 +161,44 @@ use_font_lato: true
 mathjax: true
 
 
+# ---------------------------------------------------------------
 # Swiftype Search API Key
-swiftype_key: eABYZsQY5wxC5fXFSDuP
+# gitcafe: zMVLPp5gMasWvx7m9Jg9
+# github: ojw2fwpByei4T7Njkkoa
+# ---------------------------------------------------------------
+swiftype_key: zMVLPp5gMasWvx7m9Jg9
 
+# ---------------------------------------------------------------
 # Baidu Analytics ID
-baidu_analytics: 82c8e6332c63d71a1606675c910f2ea5
+# gitcafe: a358bcc5b6e1340b2cdb6a51f05b1132
+# github: 1223045ac6fbbd71781044c657e3d42f
+# ---------------------------------------------------------------
+baidu_analytics: a358bcc5b6e1340b2cdb6a51f05b1132
 
+# ---------------------------------------------------------------
 # Duoshuo ShortName
-duoshuo_shortname: chdzq2016
+# gitcafe: chdzqgitcafeio2016
+# github: chdzq2016
+# ---------------------------------------------------------------
+duoshuo_shortname: chdzqgitcafeio2016
+
+#! ---------------------------------------------------------------
+#! 多说热评文章 true 或者 false
+#! ---------------------------------------------------------------
+duoshuo_hotartical: true
 
 # Disqus
 #disqus_shortname:
 
-# Share
-#jiathis:
-
-# Share
-#duoshuo_share: true
+# ---------------------------------------------------------------
+# 分享服务
+# ---------------------------------------------------------------
+# JiaThis 分享服务
+#jiathis: true
+# 百度分享服务
+#baidushare: true
+# 多说分享服务
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -219,11 +240,6 @@ leancloud_visitors:
 # Tencent analytics ID
 # tencent_analytics:
 
-
-
-
-
-
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
 #! UNLESS YOU KNOW WHAT YOU ARE DOING
@@ -243,18 +259,3 @@ images: images
 
 # Theme version
 version: 0.5.0
-
-#! ---------------------------------------------------------------
-#! 多说热评文章 true 或者 false
-#! ---------------------------------------------------------------
-duoshuo_hotartical: false
-
-#! ---------------------------------------------------------------
-#! 分享服务
-#! ---------------------------------------------------------------
-# JiaThis 分享服务
-#jiathis: true
-# 百度分享服务
-#baidushare: true
-# 多说分享服务
-duoshuo_share: true
