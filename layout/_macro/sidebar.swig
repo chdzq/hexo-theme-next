@@ -33,27 +33,27 @@
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
-            <a href="{{ url_for(theme.menu.archives) }}">
+            {% if theme.slide_menu.archives || theme.menu.archives %}<a href="{{ url_for(theme.slide_menu.archives || theme.menu.archives) }}">{% endif %}
               <span class="site-state-item-count">{{ site.posts.length }}</span>
               <span class="site-state-item-name">{{ __('state.posts') }}</span>
-            </a>
+            {% if theme.slide_menu.archives || theme.menu.archives %}</a>{% endif %}
           </div>
-          
+
           {% if site.categories.length > 0 %}
             <div class="site-state-item site-state-categories">
-              {% if theme.menu.categories %}<a href="{{ url_for(theme.menu.categories) }}">{% endif %}
+              {% if theme.slide_menu.categories || theme.menu.categories %}<a href="{{ url_for(theme.slide_menu.categories || theme.menu.categories) }}">{% endif %}
                 <span class="site-state-item-count">{{ site.categories.length }}</span>
                 <span class="site-state-item-name">{{ __('state.categories') }}</span>
-              {% if theme.menu.categories %}</a>{% endif %}
+              {% if theme.slide_menu.categories || theme.menu.categories %}</a>{% endif %}
             </div>
           {% endif %}
 
           {% if site.tags.length > 0 %}
             <div class="site-state-item site-state-tags">
-              {% if theme.menu.tags %}<a href="{{ url_for(theme.menu.tags) }}">{% endif %}
+              {% if theme.slide_menu.tags || theme.menu.tags %}<a href="{{ url_for(theme.slide_menu.tags || theme.menu.tags) }}">{% endif %}
                 <span class="site-state-item-count">{{ site.tags.length }}</span>
                 <span class="site-state-item-name">{{ __('state.tags') }}</span>
-              {% if theme.menu.tags %}</a>{% endif %}
+              {% if theme.slide_menu.tags || theme.menu.tags %}</a>{% endif %}
             </div>
           {% endif %}
 
