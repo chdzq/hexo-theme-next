@@ -27,10 +27,10 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
   archives: /archives
   tags: /tags
+  about: /about
   #commonweal: /404.html
 
 
@@ -57,9 +57,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 
@@ -78,7 +78,7 @@ social_icons:
   enable: true
   # Icon Mappings
   GitHub: github
-  Twitter: twitter
+  #Twitter: twitter
   Weibo: weibo
 
 
@@ -86,7 +86,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-#avatar:
+#avatar: http://7xjbsj.com1.z0.glb.clouddn.com/blogavatar.jpg
 
 
 # TOC in the Sidebar
@@ -100,7 +100,7 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
+creative_commons: by-nc-sa
 #creative_commons:
 
 sidebar:
@@ -130,15 +130,15 @@ sidebar:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: http://7xjbsj.com1.z0.glb.clouddn.com/blog115aa4cc7cd98d1002d40bb3213fb80e7aec90b2.jpg.png
 
 
 # Code Highlight theme
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -158,17 +158,17 @@ use_font_lato: true
 # ---------------------------------------------------------------
 
 # MathJax Support
-mathjax:
+mathjax: true
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: eABYZsQY5wxC5fXFSDuP
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 82c8e6332c63d71a1606675c910f2ea5
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: chdzq2016
 
 # Disqus
 #disqus_shortname:
@@ -193,8 +193,8 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
+  admin_enable: true
+  user_id: 11946845
   #admin_nickname: ROOT
 
 
@@ -211,9 +211,9 @@ facebook_sdk:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: P35CrTA6yQzUO5IKzkx5rFWI-gzGzoHsz
+  app_key: RWju3WxWfBJQAVThtNGupBfG
 
 
 # Tencent analytics ID
@@ -243,3 +243,18 @@ images: images
 
 # Theme version
 version: 0.5.0
+
+#! ---------------------------------------------------------------
+#! 多说热评文章 true 或者 false
+#! ---------------------------------------------------------------
+duoshuo_hotartical: false
+
+#! ---------------------------------------------------------------
+#! 分享服务
+#! ---------------------------------------------------------------
+# JiaThis 分享服务
+#jiathis: true
+# 百度分享服务
+#baidushare: true
+# 多说分享服务
+duoshuo_share: true
