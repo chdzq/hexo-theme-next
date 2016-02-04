@@ -33,6 +33,13 @@ menu:
   #about: /about
   #commonweal: /404.html
 
+# ---------------------------------------------------------------
+# Slide CenterMenu
+# ---------------------------------------------------------------
+slide_menu:
+  archives: /archives
+  categories: /categories
+  tags: /tags
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -67,11 +74,14 @@ scheme: Pisces
 # Sidebar Settings
 # ---------------------------------------------------------------
 
-
 # Social links
-# social:
-  #GitHub:
-  #Others:
+social:
+  GitHub: https://github.com/chdzq
+  #Twitter: https://twitter.com/your-user-name
+  Weibo: http://weibo.com/1718116037
+  #douban: http://douban.com/people/your-user-name
+  #zhihu: http://www.zhihu.com/people/your-user-name
+  # 等等
 
 # Social Icons
 social_icons:
@@ -86,8 +96,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-#avatar: http://7xjbsj.com1.z0.glb.clouddn.com/blogavatar.jpg
-
+avatar: http://7xjbsj.com1.z0.glb.clouddn.com/blogavatar.jpg
 
 # TOC in the Sidebar
 toc:
@@ -161,39 +170,29 @@ use_font_lato: true
 mathjax: true
 
 
-# ---------------------------------------------------------------
-# Swiftype Search API Key
+# Swiftype搜索 Search API Key
 # gitcafe: zMVLPp5gMasWvx7m9Jg9
 # github: ojw2fwpByei4T7Njkkoa
-# ---------------------------------------------------------------
 swiftype_key: zMVLPp5gMasWvx7m9Jg9
 
-# ---------------------------------------------------------------
-# Baidu Analytics ID
+# Baidu分析 Analytics ID
 # gitcafe: a358bcc5b6e1340b2cdb6a51f05b1132
 # github: 1223045ac6fbbd71781044c657e3d42f
-# ---------------------------------------------------------------
 baidu_analytics: a358bcc5b6e1340b2cdb6a51f05b1132
 
-# ---------------------------------------------------------------
 # Duoshuo ShortName
 # gitcafe: chdzqgitcafeio2016
 # github: chdzq2016
-# ---------------------------------------------------------------
 duoshuo_shortname: chdzqgitcafeio2016
 
-#! ---------------------------------------------------------------
-#! 多说热评文章 true 或者 false
-#! ---------------------------------------------------------------
+# 多说热评文章 true 或者 false
 duoshuo_hotartical: true
 
 
 # Disqus
 #disqus_shortname:
 
-# ---------------------------------------------------------------
 # 分享服务
-# ---------------------------------------------------------------
 # JiaThis 分享服务
 #jiathis: true
 # 百度分享服务
@@ -208,7 +207,6 @@ duoshuo_share: true
 
 # Google Analytics
 #google_analytics:
-
 
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
@@ -229,8 +227,7 @@ facebook_sdk:
   like_button:  #true
   webmaster:    #true
 
-
-# Show number of visitors to each article.
+# 文章阅读统计.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
@@ -240,6 +237,13 @@ leancloud_visitors:
 
 # Tencent analytics ID
 # tencent_analytics:
+
+# 友情链接
+# title, chinese available
+links_title: 友情链接
+# links
+links:
+  MacTalk: http://macshuo.com/
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
