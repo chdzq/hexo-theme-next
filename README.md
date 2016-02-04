@@ -6,6 +6,24 @@
 
 [![Join the chat at https://gitter.im/iissnan/hexo-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iissnan/hexo-theme-next?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+
+# Slide CenterMenu
+	侧边栏日志、分类、标签可以单独控制，或 menu的设置
+	slide_menu:
+ 	 archives: /archives
+ 	 categories: /categories
+  	 tags: /tags
+  	 
+# 多说评论会自动发送邮件提醒
+	 duoshuo_info:
+ 	 ua_enable: true
+  	admin_enable: true
+  	user_id: 11946845
+  	#admin_nickname: ROOT
+  	data_author_key: 0 #这个用户在多说站点的ID，第0个位置0  	
+ 	 
+
+# 预览图
 ![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
 
 
