@@ -187,6 +187,7 @@ duoshuo_shortname: chdzqgitcafeio2016
 #! ---------------------------------------------------------------
 duoshuo_hotartical: true
 
+
 # Disqus
 #disqus_shortname:
 
@@ -217,7 +218,7 @@ duoshuo_info:
   admin_enable: true
   user_id: 11946845
   #admin_nickname: ROOT
-
+  data_author_key: 0 #这个用户在多说站点的ID，第0个位置0
 
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
